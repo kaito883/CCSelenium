@@ -59,6 +59,42 @@ def goRegionInfoPage():
 def goOrderImportExportPage():
 	clickThenWait('xpath', '//*[@id="site_navigation_column "]/div[1]/span/a/span[2]/span', 1)#マーチャントツール
 	clickThenWait('xpath', '//*[@id="site_navigation_column "]/div[1]/div/div[2]/div[2]/div[2]/div/div/div[2]/div[6]/div/a', 2)
+
+def goCampaignPage():
+    clickThenWait('xpath', '//*[@id=“site_navigation_column “]/div[1]/span/a/span[2]/span',1)
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/div/div[2]/div[4]/div[1]/div/div/div[2]/div[1]/div/a',2)
+
+def goAbtestPage():
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/span/a/span[2]/span',1)
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/div/div[2]/div[4]/div[1]/div/div/div[2]/div[2]/div/a',2)
+
+def goPromotionPage():
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/span/a/span[2]/span',1)
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/div/div[2]/div[4]/div[1]/div/div/div[2]/div[3]/div/a',2)
+
+def goContentsslotPage():
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/span/a/span[2]/span',1)
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/div/div[2]/div[4]/div[1]/div/div/div[2]/div[4]/div/a',2)
+
+def goCouponPage():
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/span/a/span[2]/span',1)
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/div/div[2]/div[4]/div[1]/div/div/div[2]/div[5]/div/a',2)
+
+def goSourcecodegroupPage():
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/span/a/span[2]/span',1)
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/div/div[2]/div[4]/div[1]/div/div/div[2]/div[6]/div/a',2)
+
+def goActivedataPage():
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/span/a/span[2]/span',1)
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/div/div[2]/div[4]/div[1]/div/div/div[2]/div[7]/div/a',2)
+
+def goStorePage():
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/span/a/span[2]/span',1)
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/div/div[2]/div[4]/div[1]/div/div/div[2]/div[8]/div/a',2)
+
+def goGifttokenPage():
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/span/a/span[2]/span',1)
+    clickThenWait('xpath','//*[@id=“site_navigation_column “]/div[1]/div/div[2]/div[4]/div[1]/div/div/div[2]/div[9]/div/a',2)
 #/TODOクラス化する
 def doTextInput(selector_type, selector, input_text, wait_time):
 	if selector_type == "name":
